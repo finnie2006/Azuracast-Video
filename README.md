@@ -9,5 +9,13 @@ To use these scripts follow these instructions:
 3. Click the plus symbol and then select `get-nowplaying.py`
 4. Your good to go!
 
+To use the default scene follow these instructions:
+1. Open OBS
+2. Select Scene Collection > Import
+3. For Name type anything such as Default
+4. For Collection Path enter `/home/headless/Desktop/OBS-Default-Scene/Default.json`
+5. Leave Detected Application blank and then click Import
+6. Your good to go!
+
 
 More info soon TM
