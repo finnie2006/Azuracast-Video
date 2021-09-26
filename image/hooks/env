@@ -1,0 +1,28 @@
+### hooks/env
+
+SOURCE_BRANCH=${SOURCE_BRANCH:-$1}
+DOCKER_TAG=${DOCKER_TAG:-$1}
+if [[ -n "$1" ]] ; then shift ; fi
+
+DOCKERFILE_PATH=${DOCKERFILE_PATH:-./Dockerfile}
+DOCKER_REPO=${DOCKER_REPO:-azuracast-video}
+
+BASETAG=""
+TODAY=$(date +%Y-%m-%d)
+VERSION_STICKER=""
+
+### Warning! The values must be explicit strings (used by utils).
+VERSION_STICKER_LATEST="ubuntu18.04.5"
+
+VERSION_STICKER="${VERSION_STICKER_LATEST}"
+
+case "${DOCKER_TAG}" in
+
+    latest | dev )
+        BASETAG="18.04"
+        ;;
+
+    *)
+        BASETAG=""
+        ;;
+esac
