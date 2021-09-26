@@ -21,8 +21,9 @@ To use the default scene follow these instructions:
 To use these scripts follow these instructions:
 1. Open OBS
 2. Select Tools > Scripts
-3. Click the plus symbol and then select `get-nowplaying.py`
-4. Your good to go!
+3. Click the plus symbol and then select `/usr/share/obs/obs-plugins/frontend-tools/scripts/get-nowplaying.py`
+4. It's ok if it errors out, then edit `/usr/share/obs/obs-plugins/frontend-tools/scripts/get-nowplaying.py` and change
+5. Your good to go!
 
 
 More info soon TM
