@@ -5,7 +5,7 @@ This image is based on https://github.com/accetto/ubuntu-vnc-xfce OBS is install
 
 Create Container: 
 
-````docker
+```docker
 docker run -d -p 25901:5901  ghcr.io/finnie2006/azuracast-video:18.04
 ```
 
