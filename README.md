@@ -15,7 +15,8 @@ To use the default scene follow these instructions:
 3. For Name type anything such as Default
 4. For Collection Path enter `/home/headless/Desktop/OBS-Default-Scene/Default.json`
 5. Leave Detected Application blank and then click Import
-6. Your good to go!
+6. Then select Scene Collection > Default
+7. Your good to go!
 
 To use these scripts follow these instructions:
 1. Open OBS
