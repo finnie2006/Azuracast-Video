@@ -244,7 +244,7 @@ RUN cd /usr/share/obs/obs-plugins/frontend-tools/scripts/ \
  && wget https://raw.githubusercontent.com/finnie2006/Azuracast-Video/main/scripts/get-song-audio.sh \
  && mkdir /home/headless/Desktop/OBS-Default-Scene \  
  && cd /home/headless/Desktop/OBS-Default-Scene \
- && wget https://raw.githubusercontent.com/finnie2006/Azuracast-Video/main/scripts/scene.json
+ && wget https://raw.githubusercontent.com/finnie2006/Azuracast-Video/main/scripts/Default.json
 
 ### 'generate_container_user' has to be sourced to hold all env vars correctly
 RUN echo 'source $STARTUPDIR/generate_container_user' >> ${HOME}/.bashrc
