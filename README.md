@@ -3,6 +3,10 @@ Azuracast-Video is a solution to stream your Azuracast radio to rtmp or a servic
 
 This image is based on https://github.com/accetto/ubuntu-vnc-xfce OBS is installed by default, and some OBS scripts are added to get data from your Azuracast API. 
 
+Create Container: 
+````
+docker run -d -p 25901:5901 -p 26901:6901 ghcr.io/finnie2006/azuracast-video:18.04
+```
 To use these scripts follow these instructions:
 1. Open OBS
 2. Select Tools > Scripts
