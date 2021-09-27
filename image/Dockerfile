@@ -239,9 +239,6 @@ COPY [ "./src/home/config/xfce4/xfconf/xfce-perchannel-xml", "./.config/xfce4/xf
 ### Add OBS Scripts
 RUN cd /usr/share/obs/obs-plugins/frontend-tools/scripts/ \
  && wget https://raw.githubusercontent.com/finnie2006/Azuracast-Video/main/scripts/get-nowplaying.py \
- && wget https://raw.githubusercontent.com/finnie2006/Azuracast-Video/main/scripts/get-song-name.sh \
- && wget https://raw.githubusercontent.com/finnie2006/Azuracast-Video/main/scripts/get-song-art.sh \
- && wget https://raw.githubusercontent.com/finnie2006/Azuracast-Video/main/scripts/get-song-audio.sh \
  && mkdir /home/headless/Desktop/OBS-Default-Scene \  
  && cd /home/headless/Desktop/OBS-Default-Scene \
  && wget https://raw.githubusercontent.com/finnie2006/Azuracast-Video/main/scripts/Default.json
