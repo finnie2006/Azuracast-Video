@@ -16,7 +16,9 @@ To use the default scene follow these instructions:
 4. For Collection Path enter `/home/headless/Desktop/OBS-Default-Scene/Default.json`
 5. Leave Detected Application blank and then click Import
 6. Then select Scene Collection > Default
-7. Your good to go!
+7. If you don't like the background being just black, we have an mp4 you can use as the background:
+   https://github.com/finnie2006/Azuracast-Video/raw/main/other-assets/example.mp4
+9. Your good to go!
 
 To use these scripts follow these instructions:
 1. Open OBS
